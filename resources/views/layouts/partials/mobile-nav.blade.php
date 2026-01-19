@@ -26,29 +26,22 @@
     <div class="mobile-nav mobile-nav1">
         <ul class="mobile-nav-list nav-list1">
             <li><a href="#">Home </a>
-                <ul class="sub-menu">
-                    <li><a href={{ route('any', 'index') }}>Home One</a></li>
-                    <li><a href={{ route('second', ['demo', 'index-2']) }}>Home Two</a></li>
-                    <li><a href={{ route('second', ['demo', 'index-3']) }}>Home Three</a></li>
-                    <li><a href={{ route('second', ['demo', 'index-4']) }}>Home Four</a></li>
-                    <li><a href={{ route('second', ['demo', 'index-5']) }}>Home Five</a></li>
-                </ul>
             </li>
             <li><a href={{ route('any', 'about') }}>About</a></li>
             <li><a href="#">Events</a>
                 <ul class="sub-menu">
                     <li><a href={{ route('second', ['events', 'event']) }}>Events</a></li>
-                    <li><a href={{ route('second', ['events', 'left']) }}>Events Left</a></li>
+                    
                     <li><a href={{ route('second', ['events', 'right']) }}>Events Right</a></li>
-                    <li><a href={{ route('second', ['events', 'single']) }}>Events Single</a></li>
+                    
                 </ul>
             </li>
             <li><a href="#">Blogs</a>
                 <ul class="sub-menu">
                     <li><a href={{ route('second', ['blogs', 'blog']) }}>Blog</a></li>
-                    <li><a href={{ route('second', ['blogs', 'left']) }}>Blog Left</a></li>
+                    
                     <li><a href={{ route('second', ['blogs', 'right']) }}>Blog Right</a></li>
-                    <li><a href={{ route('second', ['blogs', 'single']) }}>Blog Single</a></li>
+                    
                 </ul>
             </li>
             <li><a href="#">Pages</a>

@@ -49,91 +49,24 @@
                         </div>
                         <div class="main-menu">
                             <ul>
-                                <li><a href="#">Home <i class="fa-solid fa-angle-down"></i></a>
-                                    <div class="tp-submenu">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <div class="d-flex">
-                                                    <!-- home thumb -->
-                                                    <div class="homemenu-thumb">
-                                                        <div class="img1">
-                                                            <img src="/img/demo/vl-demo1.1.png" alt="">
-                                                        </div>
-                                                        <div class="homemenu-btn">
-                                                            <a class="header-btn1 mb-20" href={{ route('any', 'index') }}>Multi Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                            <a class="header-btn1" href="{{ route('second', ['single', 'index1']) }}">One Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                        </div>
-                                                        <h4 class="home-thumb-title">Disaster Relief</h4>
-                                                    </div>
-
-                                                    <!-- home thumb -->
-                                                    <div class="homemenu-thumb">
-                                                        <div class="img1">
-                                                            <img src="/img/demo/vl-demo-1.2.png" alt="">
-                                                        </div>
-                                                        <div class="homemenu-btn">
-                                                            <a class="header-btn1 mb-20" href={{ route('second', ['demo', 'index-2']) }}>Multi Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                            <a class="header-btn1" href="{{ route('second', ['single', 'index2']) }}">One Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                        </div>
-                                                        <h4 class="home-thumb-title">Animal Rescue and Welfare</h4>
-                                                    </div>
-
-                                                    <!-- home thumb -->
-                                                    <div class="homemenu-thumb">
-                                                        <div class="img1">
-                                                            <img src="/img/demo/vl-demo-1.3.png" alt="">
-                                                        </div>
-                                                        <div class="homemenu-btn">
-                                                            <a class="header-btn1 mb-20" href={{ route('second', ['demo', 'index-3']) }}>Multi Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                            <a class="header-btn1" href="{{ route('second', ['single', 'index3']) }}">One Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                        </div>
-                                                        <h4 class="home-thumb-title">Water aid</h4>
-                                                    </div>
-
-
-                                                    <!-- home thumb -->
-                                                    <div class="homemenu-thumb">
-                                                        <div class="img1">
-                                                            <img src="/img/demo/vl-demo-1.4.png" alt="">
-                                                        </div>
-                                                        <div class="homemenu-btn">
-                                                            <a class="header-btn1 mb-20" href={{ route('second', ['demo', 'index-4']) }}>Multi Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                            <a class="header-btn1" href="{{ route('second', ['single', 'index4']) }}">One Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                        </div>
-                                                        <h4 class="home-thumb-title">Senior Citizen</h4>
-                                                    </div>
-
-                                                    <!-- home thumb -->
-                                                    <div class="homemenu-thumb">
-                                                        <div class="img1">
-                                                            <img src="/img/demo/vl-demo-1.5.png" alt="">
-                                                        </div>
-                                                        <div class="homemenu-btn">
-                                                            <a class="header-btn1 mb-20" href={{ route('second', ['demo', 'index-5']) }}>Multi Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                            <a class="header-btn1" href="{{ route('second', ['single', 'index5']) }}">One Page <span><i class="fa-solid fa-arrow-right"></i></span></a>
-                                                        </div>
-                                                        <h4 class="home-thumb-title"> Human Rights Advocacy</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <li><a href="#">Home <i class="fa-solid "></i></a>
+                                     
                                 </li>
                                 <li><a href={{ route('any', 'about') }}>About</a></li>
                                 <li><a href="#">Events <i class="fa-solid fa-angle-down"></i></a>
                                     <ul class="dropdown-padding">
                                         <li><a href={{ route('second', ['events', 'event']) }}>Events</a></li>
-                                        <li><a href={{ route('second', ['events', 'left']) }}>Events Left</a></li>
+                                        
                                         <li><a href={{ route('second', ['events', 'right']) }}>Events Right</a></li>
-                                        <li><a href={{ route('second', ['events', 'single']) }}>Events Single</a></li>
+                                       
                                     </ul>
                                 </li>
                                 <li><a href="#">Blogs <i class="fa-solid fa-angle-down"></i></a>
                                     <ul class="dropdown-padding">
                                         <li><a href={{ route('second', ['blogs', 'blog']) }}>Blog</a></li>
-                                        <li><a href={{ route('second', ['blogs', 'left']) }}>Blog Left</a></li>
+                                       
                                         <li><a href={{ route('second', ['blogs', 'right']) }}>Blog Right</a></li>
-                                        <li><a href={{ route('second', ['blogs', 'single']) }}>Blog Single</a></li>
+                                        
                                     </ul>
                                 </li>
                                 <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
@@ -148,9 +81,9 @@
                                 <li><a href="#">Causes <i class="fa-solid fa-angle-down"></i></a>
                                     <ul class="dropdown-padding">
                                         <li><a href={{ route('second', ['causes', 'cause']) }}>Causes</a></li>
-                                        <li><a href={{ route('second', ['causes', 'left']) }}>Causes Left</a></li>
+                                       
                                         <li><a href={{ route('second', ['causes', 'right']) }}>Causes Right</a></li>
-                                        <li><a href={{ route('second', ['causes', 'single']) }}>Causes Single</a></li>
+                                        
                                     </ul>
                                 </li>
                             </ul>

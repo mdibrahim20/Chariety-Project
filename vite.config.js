@@ -9,7 +9,6 @@ export default defineConfig({
                 //css
                 'resources/scss/main.scss',
 
-
                 //js
                 'resources/js/main.js'
             ],
