@@ -1,0 +1,101 @@
+<!-- ===================== HEADER TOP AREA START =====================-->
+<div class="vl-header-top d-none d-lg-block">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="vl-header-top-content">
+                    <p>Are you ready to free case evaluation today? </p>
+                    <a href="#" class="top-contact">Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="vl-header-top-icon">
+                    <div class="vl-header-top-icbox">
+                        <div class="top-icon">
+                            <span><img src="/img/icons/vl-top-ic-1.1.svg" alt=""></span>
+                        </div>
+                        <div class="top-content">
+                            <a href="mailto:info@disasterelief.com">info@disasterelief.com</a>
+                        </div>
+                    </div>
+
+                    <div class="vl-header-top-icbox">
+                        <div class="top-icon">
+                            <span><img src="/img/icons/vl-top-ic-1.2.svg" alt=""></span>
+                        </div>
+                        <div class="top-content">
+                            <a href="tel:5551234567">(555) 123-4567</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===================== HEADER TOP AREA END =====================-->
+
+
+
+<!--=====HEADER START=======-->
+<header>
+    <div class="header-area homepage1 header header-sticky d-none d-lg-block mt-16" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-elements header-elements-1">
+                        <div class="site-logo">
+                            <a href=<?php echo e(route('any', 'index')); ?>> <img src="/img/logo/vl-logo-1.1.png" alt=""> </a>
+                        </div>
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="#">Home <i class="fa-solid "></i></a>
+                                     
+                                </li>
+                                <li><a href=<?php echo e(route('any', 'about')); ?>>About</a></li>
+                                <li><a href="#">Events <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="dropdown-padding">
+                                        <li><a href=<?php echo e(route('second', ['events', 'event'])); ?>>Events</a></li>
+                                        
+                                        <li><a href=<?php echo e(route('second', ['events', 'right'])); ?>>Events Right</a></li>
+                                       
+                                    </ul>
+                                </li>
+                                <li><a href="#">Blogs <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="dropdown-padding">
+                                        <li><a href=<?php echo e(route('second', ['blogs', 'blog'])); ?>>Blog</a></li>
+                                       
+                                        <li><a href=<?php echo e(route('second', ['blogs', 'right'])); ?>>Blog Right</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li><a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="dropdown-padding">
+                                        <li><a href=<?php echo e(route('second', ['pages', 'service'])); ?>>Our Services</a></li>
+                                        <li><a href=<?php echo e(route('second', ['pages', 'team'])); ?>>Our Volunteers</a></li>
+                                        <li><a href=<?php echo e(route('second', ['pages', 'faq'])); ?>>FAQ</a></li>
+                                        <li><a href=<?php echo e(route('second', ['pages', 'contact'])); ?>>Contact</a></li>
+                                        <li><a href=<?php echo e(route('second', ['pages', '404'])); ?>>404</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Causes <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="dropdown-padding">
+                                        <li><a href=<?php echo e(route('second', ['causes', 'cause'])); ?>>Causes</a></li>
+                                       
+                                        <li><a href=<?php echo e(route('second', ['causes', 'right'])); ?>>Causes Right</a></li>
+                                        
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-area">
+                            <a href=<?php echo e(route('second', ['pages', 'contact'])); ?> class="header-btn1">Donate <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--=====HEADER END =======-->
+<?php /**PATH I:\Helpy\resources\views\layouts\partials\header\navbar.blade.php ENDPATH**/ ?>

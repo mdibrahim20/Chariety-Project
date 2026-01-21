@@ -6,6 +6,7 @@ use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -13,18 +14,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Create Admin User
-        User::factory()->create([
-            'name' => 'Admin',
-            'email' => 'admin@helpy.com',
-            'password' => bcrypt('password'),
-        ]);
-
-        // Create Test User
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-            'password' => bcrypt('password'),
+        $this->call([
+            RolesAndPermissionsSeeder::class,
+            SettingsSeeder::class,
+            AdminUserSeeder::class,
         ]);
     }
 }
